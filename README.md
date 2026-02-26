@@ -88,6 +88,7 @@ Key Features:
   3. Create, edit, delete, and toggle tasks.
   4. Mocked backend using MSW.
   6. Clean and reusable component structure.
+  7. System-wide Dark Mode with Tailwind (class-based) and persistent theme         preference
 
 Why This Setup?
 

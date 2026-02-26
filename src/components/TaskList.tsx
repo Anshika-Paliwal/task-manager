@@ -11,8 +11,8 @@ type Props = {
 const TaskList = ({ tasks, onToggle, onDelete, onEdit }: Props) => {
   if (tasks.length === 0) {
     return (
-      <div className="bg-white border rounded-2xl p-8 text-center text-gray-500">
-        No tasks available
+      <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl p-8 text-center text-gray-500 dark:text-gray-300 transition-colors duration-300">
+        No tasks available. Please add a task to get started!
       </div>
     );
   }
