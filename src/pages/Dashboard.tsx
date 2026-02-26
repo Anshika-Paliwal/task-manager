@@ -40,7 +40,7 @@ function Dashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 p-6 space-y-6 transition-colors duration-300">
-<div className="flex items-center justify-between">
+      <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <FiGrid className="text-blue-600 dark:text-blue-400" size={24} />
           <h1 className="text-3xl font-bold">Dashboard</h1>

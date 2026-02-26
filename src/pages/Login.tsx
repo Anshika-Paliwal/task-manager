@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import { useAppDispatch } from "../app/hooks";
 import { login } from "../features/auth/authSlice";
-import { PasswordInput , ThemeToggle } from "../components";
+import { PasswordInput, ThemeToggle } from "../components";
 
 function Login() {
   const dispatch = useAppDispatch();
@@ -34,9 +34,9 @@ function Login() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center px-4 sm:px-6 lg:px-8 transition-colors duration-300">
-       <div className="absolute top-6 right-6">
-      <ThemeToggle />
-    </div>
+      <div className="absolute top-6 right-6">
+        <ThemeToggle />
+      </div>
       <form
         onSubmit={handleLogin}
         className="w-full max-w-md bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg rounded-2xl p-8 sm:p-10 flex flex-col gap-6 transition-colors duration-300"
